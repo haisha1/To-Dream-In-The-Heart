@@ -8,4 +8,3 @@ function B() { return function() {}; }
 
 const a = myNew(A); // 返回 [1,2,3]
 const b = myNew(B); // 返回函数
-console.log(a, b);
